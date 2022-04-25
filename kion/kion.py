@@ -2,12 +2,10 @@
 
 # ライブラリのインポート
 import csv
-import os
 import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
 matplotlib.rc('font', family='Noto Sans CJK JP')
-os.environ["QT_LOGGING_RULES"] = "*=false"
 
 # 読み出したデータを保持する配列
 hizuke_data = []
